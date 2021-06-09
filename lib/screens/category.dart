@@ -26,15 +26,15 @@ class Category extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(right: 30.0),
                   child: Text("combo".toUpperCase(),
-                      style: GoogleFonts.notoSans(color: Colors.grey)),
+                      style: GoogleFonts.notoSans(color: Color(0xFFCCCCCC))),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(right: 30.0),
                   child: Text("favorites".toUpperCase(),
-                      style: GoogleFonts.notoSans(color: Colors.grey)),
+                      style: GoogleFonts.notoSans(color: Color(0xFFCCCCCC))),
                 ),
                 Text("recommended".toUpperCase(),
-                    style: GoogleFonts.notoSans(color: Colors.grey))
+                    style: GoogleFonts.notoSans(color: Color(0xFFCCCCCC)))
               ],
             ),
           ),

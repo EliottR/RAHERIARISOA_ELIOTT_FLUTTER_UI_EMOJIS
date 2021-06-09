@@ -15,7 +15,7 @@ class InsideCategory extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 15.0, right: 15.0),
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Colors.pink[50],
+                      color: Color(0xFFFFE3DF),
                       borderRadius: new BorderRadius.all(
                         Radius.circular(10.0),
                       )),
@@ -68,13 +68,13 @@ class InsideCategory extends StatelessWidget {
                     Text('\$6',
                         style: GoogleFonts.notoSans(
                             fontSize: 18.0,
-                            color: Colors.pink[200],
+                            color: Color(0xFFF68D7F),
                             fontWeight: FontWeight.w600)),
                     SizedBox(width: 5.0),
                     Text('\$18',
                         style: GoogleFonts.notoSans(
                             fontSize: 14.0,
-                            color: Colors.grey,
+                            color: Color(0xFFD6D6D6),
                             decoration: TextDecoration.lineThrough))
                   ])
                 ],
@@ -141,13 +141,13 @@ class InsideCategory extends StatelessWidget {
                     Text('\$9',
                         style: GoogleFonts.notoSans(
                             fontSize: 18.0,
-                            color: Colors.pink[200],
+                            color: Color(0xFFF68D7F),
                             fontWeight: FontWeight.w600)),
                     SizedBox(width: 5.0),
                     Text('\$14',
                         style: GoogleFonts.notoSans(
                             fontSize: 14.0,
-                            color: Colors.grey,
+                            color: Color(0xFFD6D6D6),
                             decoration: TextDecoration.lineThrough))
                   ])
                 ],
@@ -214,13 +214,13 @@ class InsideCategory extends StatelessWidget {
                     Text('\$5',
                         style: GoogleFonts.notoSans(
                             fontSize: 18.0,
-                            color: Colors.pink[200],
+                            color: Color(0xFFF68D7F),
                             fontWeight: FontWeight.w600)),
                     SizedBox(width: 5.0),
                     Text('\$12',
                         style: GoogleFonts.notoSans(
                             fontSize: 14.0,
-                            color: Colors.grey,
+                            color: Color(0xFFD6D6D6),
                             decoration: TextDecoration.lineThrough))
                   ])
                 ],

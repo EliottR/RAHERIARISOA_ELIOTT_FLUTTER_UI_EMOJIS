@@ -13,7 +13,7 @@ class Item extends StatelessWidget {
             padding: const EdgeInsets.only(left: 15.0, right: 15.0),
             child: Container(
               decoration: BoxDecoration(
-                  color: Colors.amber[100],
+                  color: const Color(0xFFFFE9C6),
                   borderRadius: new BorderRadius.all(
                     Radius.circular(15.0),
                   )),
@@ -38,11 +38,11 @@ class Item extends StatelessWidget {
                     padding: const EdgeInsets.all(3.0),
                     child: Text("Hamburg",
                         style: GoogleFonts.notoSans(
-                            fontSize: 18.0, color: Colors.amber[700])),
+                            fontSize: 18.0, color: Color(0xFFDA9551))),
                   ),
                   Text('\$21',
                       style: GoogleFonts.notoSans(
-                          fontSize: 18.0, color: Colors.amber[700])),
+                          fontSize: 18.0, color: Color(0xFFDA9551))),
                 ],
               ),
               width: 150,
@@ -53,7 +53,7 @@ class Item extends StatelessWidget {
             padding: const EdgeInsets.only(right: 15.0),
             child: Container(
               decoration: BoxDecoration(
-                  color: Colors.blue[100],
+                  color: Color(0xFFC2E3FE),
                   borderRadius: new BorderRadius.all(
                     Radius.circular(15.0),
                   )),
@@ -78,11 +78,11 @@ class Item extends StatelessWidget {
                     padding: const EdgeInsets.all(3.0),
                     child: Text("Chips",
                         style: GoogleFonts.notoSans(
-                            fontSize: 18.0, color: Colors.blue[700])),
+                            fontSize: 18.0, color: Color(0xFF6A8CAA))),
                   ),
                   Text('\$15',
                       style: GoogleFonts.notoSans(
-                          fontSize: 18.0, color: Colors.blue[700])),
+                          fontSize: 18.0, color: Color(0xFF6A8CAA))),
                 ],
               ),
               width: 150,
@@ -93,7 +93,7 @@ class Item extends StatelessWidget {
             padding: const EdgeInsets.only(right: 15.0),
             child: Container(
               decoration: BoxDecoration(
-                  color: Colors.green[100],
+                  color: Color(0xFFD7FADA),
                   borderRadius: new BorderRadius.all(
                     Radius.circular(15.0),
                   )),
